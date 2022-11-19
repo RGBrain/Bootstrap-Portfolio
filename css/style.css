@@ -4,10 +4,18 @@
     align-items: center;
 }
 
+nav {
+}
+
 h1 {
     justify-content: flex-start;
 }
 
 .hero-banner {
-    background-image: url(/images/code.jpg);
+    background-image: url(/images/i-recommend.png);
+    background-size: cover;
+    margin-top: -100px;
+}   
+.jumbotron {
+    height: 600px;
 }

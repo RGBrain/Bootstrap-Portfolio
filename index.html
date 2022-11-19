@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-gb">
 
+<!-- TODO: -->
+<!-- Add the abbreviation class thing (see HTML in portfolio) -->
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,22 +16,25 @@
 <body>
   <!-- main logo / nav -->
   <header>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <!-- TODO:REMOVED bg-light FROM NAV  -->
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <h1>Richard Brain</h1>
+        <h1 class="display-2">Brain <small class="text-muted"> Web Design</small>
+        </h1>
+        <!-- Hamburger Menu  -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#about">About Me</a>
+              <p class="lead"><a class="nav-link" aria-current="page" href="#about">About Me</a></p>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#work">Work</a>
+              <p class="lead"><a class="nav-link" href="#work">Work</a></p>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact Me</a>
+              <p class="lead"><a class="nav-link" href="#contact">Contact Me</a></p>
             </li>
           </ul>
         </div>
@@ -37,29 +43,12 @@
   </header>
 
   <!-- hero banner -->
-  <section class="hero-banner" title="Image of HTML">
+  <section class="hero-banner" title="Hipster recommendation!">
     <div class="tagline jumbotron">
-      <h2>Web Developer</h2>
     </div>
   </section>
 
   <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <div class="section-title">
-        <h3>About Me</h3>
-      </div>
-      <p>
-        A first career as a freelance business development executive provided me with a wealth of experience regarding taking products to market; front-line insight as to what works and what doesn't. 
-        </br></br> 
-        Now, doing what I love as a web developer, I use that to ensure that your site is creating the right opportunities, and representing your brand in the best way.  
-        </br></br>
-        <a href="#contact">Get in touch </a>for a chat to find out more!
-      
-      </p>
-      
-    </section>
-
     <!-- portfolio container -->
     <section class="page-section" id="work">
       <div class="section-title">
@@ -93,11 +82,33 @@
         <a href="#" class="card" id="run-buddy">
           <div class="text-box" title="Run Buddy Image">
             <h4>Run Buddy</h4>
-            <p>HTML/CSS</p>
+            <p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr>/CSS</p>
           </div>
         </a>
       </div>
     </section>
+
+
+
+
+    <!-- about me -->
+    <section class="page-section" id="about">
+      <div class="section-title">
+        <h3>About Me</h3>
+      </div>
+      <p>
+        A first career as a freelance business development executive provided me with a wealth of experience regarding taking products to market; front-line insight as to what works and what doesn't. 
+        </br></br> 
+        Now, doing what I love as a web developer, I use that to ensure that your site is creating the right opportunities, and representing your brand in the best way.  
+        </br></br>
+        <a href="#contact">Get in touch </a>for a chat to find out more!
+      
+      </p>
+      
+    </section>
+
+    <!-- NEED TO ADD SKILLS AND ABOUT SECTION ON SAME ROW  -->
+
 
     <!-- contact -->
     <section class="page-section contact" id="contact">
