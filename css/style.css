@@ -1,0 +1,13 @@
+/* Custom CSS */
+.navbar-collapse {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+h1 {
+    justify-content: flex-start;
+}
+
+.hero-banner {
+    background-image: url(/images/code.jpg);
+}
