@@ -4,17 +4,21 @@
     align-items: center;
 }
 
-nav {
-}
 
 h1 {
     justify-content: flex-start;
 }
 
-.hero-banner {
-    background-image: url(/images/i-recommend.png);
+.card {
+    background-image: url(/images/02-run-buddy.jpg);
     background-size: cover;
-    margin-top: -100px;
+    margin: 20px;
+}
+
+body {
+    background-image: url(/images/neon.jpg);
+    background-size: cover;
+    background-position: center;
 }   
 .jumbotron {
     height: 600px;
