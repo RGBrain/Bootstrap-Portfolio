@@ -10,16 +10,21 @@ h1 {
 }
 
 .card {
-    background-image: url(/images/02-run-buddy.jpg);
-    background-size: cover;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.card-img-top {
+    
+}
+.card-area {
+    margin: 5px;
 }
 
-body {
-    background-image: url(/images/neon.jpg);
-    background-size: cover;
-    background-position: center;
-}   
 .jumbotron {
     height: 600px;
+    background-image: url(/images/i-recommend.png);
+    background-size: cover;
+    background-position: center;
 }
