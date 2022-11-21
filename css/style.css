@@ -1,17 +1,31 @@
 /* Custom CSS */
+
+/* CSS HEX */
+:root {
+--electric-blue: rgba(147, 233, 232, 1);
+--eton-blue: #9FCAACff;
+--eggshell: #F3F0E1ff;
+--vivid-tangerine: #FEA597ff;
+--beaver: #968477ff;
+}
+
+body {
+    background-color: var(--eggshell);
+}
+
 .navbar-collapse {
     justify-content: flex-end;
     align-items: center;
 }
 
-
 h1 {
+    color: var(--beaver)
     justify-content: flex-start;
 }
 
 .card {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -27,4 +41,35 @@ h1 {
     background-image: url(/images/i-recommend.png);
     background-size: cover;
     background-position: center;
+    position: relative;
 }
+/* My name  */
+h2 {
+    color: var(--beaver);
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    margin: 10px;
+}
+
+/* Section titles */
+h3 {
+    margin: 20px;
+}
+
+/* Card section  */
+.card-body {
+    /* background-color: var(--beaver); */
+}
+
+/* Skills/about section  */
+.skills, .about {
+    /* border: red solid 3px; */
+}
+
+.about p {
+    margin: 10px;
+}
+
+
+/* TODO: Need to make the jumbotron deeper for big screens to img is right  */

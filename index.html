@@ -10,6 +10,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Richard Brain | Web Developer</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="css/style.css" />
 </head>
 
@@ -18,7 +19,7 @@
   <header>
     <!-- TODO:REMOVED bg-light FROM NAV  -->
     <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
+      <div class="container-fluid top-bar">
         <h1 class="display-2">Brain <small class="text-muted"> Web Design</small>
         </h1>
         <!-- Hamburger Menu  -->
@@ -45,6 +46,7 @@
   <!-- hero banner -->
   <section class="hero-banner" title="Hipster recommendation!">
     <div class="tagline jumbotron">
+      <h2 class="display-1">Richard Brain</h2>
     </div>
   </section>
 
@@ -52,14 +54,14 @@
     <!-- portfolio container -->
     <section class="page-section" id="work">
       <div class="section-title">
-        <h3>Work</h3>
+        <h3 class="display-4">Work</h3>
       </div>
 
 
-      <!-- TODO: use these 5   -->
+      <!-- Cards  -->
       <div class="row card-area">
         <div class="col-sm-12 col-md-6 col-lg-4">
-          <div class="card ">
+          <div class="card shadow p-3 mb-5 bg-white rounded">
             <img class="card-img-top" src="/images/02-portfolio-4.jpg" alt="Card image cap">
             <div class="card-body">
               <a href="#" class="btn btn-primary">Surf Report</a>
@@ -68,7 +70,7 @@
           </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-4">
-          <div class="card">
+          <div class="card shadow p-3 mb-5 bg-white rounded">
             <img class="card-img-top" src="/images/02-portfolio-1.jpg" alt="Card image cap">
             <div class="card-body">
               <a href="#" class="btn btn-primary">LED Wall</a>
@@ -76,8 +78,8 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-4">
-          <div class="card">
+        <div class="col-sm-12 col-md-6 col-lg-4 ">
+          <div class="card shadow p-3 mb-5 bg-white rounded">
             <img class="card-img-top" src="/images/02-portfolio-2.jpg" alt="Card image cap">
             <div class="card-body">
               <a href="#" class="btn btn-primary">Calculator</a>
@@ -86,7 +88,7 @@
           </div>
         </div> 
         <div class="col-sm-12 col-md-6 col-lg-4"> 
-          <div class="card">
+          <div class="card shadow p-3 mb-5 bg-white rounded">
             <img class="card-img-top" src="/images/02-portfolio-3.jpg" alt="Card image cap">
             <div class="card-body">
               <a href="#" class="btn btn-primary">Pastel Puzzels</a>
@@ -95,7 +97,7 @@
           </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-4">
-          <div class="card">
+          <div class="card shadow p-3 mb-5 bg-white rounded">
             <img class="card-img-top" src="/images/02-run-buddy.jpg" alt="Card image cap">
             <div class="card-body">
               <a href="#" class="btn btn-primary">Run Buddy</a>
@@ -104,7 +106,7 @@
           </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-4">
-          <div class="card">
+          <div class="card shadow p-3 mb-5 bg-white rounded">
             <img class="card-img-top" src="/images/portfolio.png" alt="Card image cap">
             <div class="card-body">
               <a href="#" class="btn btn-primary">Portfolio</a>
@@ -115,21 +117,38 @@
       </div>
     </section>
 
+
     <!-- about me -->
     <section class="page-section" id="about">
-      <div class="section-title">
-        <h3>About Me</h3>
-      </div>
-      <p>
-        A first career as a freelance business development executive provided me with a wealth of experience regarding taking products to market; front-line insight as to what works and what doesn't. 
-        </br></br> 
-        Now, doing what I love as a web developer, I use that to ensure that your site is creating the right opportunities, and representing your brand in the best way.  
-        </br></br>
-        <a href="#contact">Get in touch </a>for a chat to find out more!
-      
-      </p>
-      
-    </section>
+      <div class="container-flex">
+        <div class="row">
+          <div class="about col-md-6">
+            <h3 class="display-4">About Me</h3>
+            <p>
+              A first career as a freelance business development executive provided me with a wealth of experience regarding taking products to market; front-line insight as to what works and what doesn't. 
+              </br></br> 
+              Now, doing what I love as a web developer, I use that to ensure that your site is creating the right opportunities, and representing your brand in the best way.  
+              </br></br>
+              <a href="#contact">Get in touch </a>for a chat to find out more!
+            </p>
+          </div>
+        
+          <div class="skills col-md-6">
+            <h3 class="display-4">Skills</h3>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">HTML</li>
+              <li class="list-group-item">CSS</li>
+              <li class="list-group-item">JavaScript</li>
+              <li class="list-group-item">Bootstrap</li>
+              <li class="list-group-item">Django</li>
+              <li class="list-group-item">React</li>
+              <li class="list-group-item">Node</li>
+              <li class="list-group-item">Git</li>
+            </ul>
+          </div>
+        </div>
+    </div>
+  </section>
 
     <!-- NEED TO ADD SKILLS AND ABOUT SECTION ON SAME ROW  -->
 
@@ -137,7 +156,7 @@
     <!-- contact -->
     <section class="page-section contact" id="contact">
       <div class="section-title">
-        <h3>Contact Me</h3>
+        <h3 class="display-4">Contact Me</h3>
       </div>
       <ul>
         <li><a href="#">07807 258 642</a></li>
