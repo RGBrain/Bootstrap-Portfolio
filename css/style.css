@@ -55,7 +55,11 @@ h3 {
     margin: 20px;
 }
 
-/* Work Cards  */
+
+/* Work */
+#work {
+    margin-top: 50px;
+}
 .card {
     margin-top: 0px;
     margin-bottom: 0px;
