@@ -13,7 +13,7 @@ A landing page that can be visited to find out about me, my credentials and some
 
 ## Installation
 
-Deployed online: 
+Deployed online: https://rgbrain.github.io/Bootstrap-Portfolio/
 
 ## Usage
 
