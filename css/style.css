@@ -2,8 +2,6 @@
 
 /* COLOR VARIABLES */
 :root {
---electric-blue: rgba(147, 233, 232, 1);
---eton-blue: #9FCAACff;
 --eggshell: #F3F0E1ff;
 --vivid-tangerine: #FF8200;
 --beaver: #968477ff;
@@ -23,27 +21,31 @@ body {
     justify-content: flex-end;
     align-items: center;
 }
-/* Company Name  */
+.navbar-nav a{
+    margin-bottom: -20px;
+    /* color: red; */
+}
+
+/* Company Name - 'Brain'  */
 h1 {
     color: var(--black-beaver);
     justify-content: flex-start;
 }
+/* Company Name - 'Web Design'   */
 #web-design {
     color: var(--beaver)
 }
-
 /* Jumbotron */
 .jumbotron {
-    height: 600px;
+    height: 600px;  
     background-image: url(/images/i-recommend.png);
     background-size: cover;
     background-position: center;
     position: relative;
 }
 
-/* My name  */
+/* Name  */
 h2 {
-    color: var(--black-beaver);
     position: absolute;
     bottom: 0px;
     left: 10px;
@@ -54,7 +56,6 @@ h2 {
 h3 {
     margin: 20px;
 }
-
 
 /* Work */
 #work {
@@ -83,16 +84,16 @@ h3 {
     width: 90%
 }
 
-
-
 /* Skills list  */
 .list-group {
     padding: 20px;
 }
 .list-group-item {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin-top: 10px;
+    background-image: linear-gradient(to left,var(--eggshell), var(--vivid-tangerine));
+
 }
 .list-group-item:first-child {
     margin-top: -20px;
