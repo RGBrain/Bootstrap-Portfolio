@@ -130,5 +130,18 @@ h5 {
 }
 
 
-/* TODO: Need to make the jumbotron deeper for big screens to img is right  */
+/* 
+MEDIA QUERIES
+ */
 
+/* Resize Jumbotron image  */
+@media screen and (max-width: 500px) {
+    .jumbotron {
+        height: 300px;
+    }
+}
+@media screen and (min-width: 900px) {
+    .jumbotron {
+        height: 1200px;
+    }
+}
