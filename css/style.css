@@ -38,7 +38,7 @@ h1 {
 /* Jumbotron */
 .jumbotron {
     height: 600px;  
-    background-image: url(/images/i-recommend.png);
+    background-image: url(../images/i-recommend.png);
     background-size: cover;
     background-position: center;
     position: relative;
