@@ -21,6 +21,10 @@ body {
     justify-content: flex-end;
     align-items: center;
 }
+.navbar-nav a{
+    margin-bottom: -20px;
+    /* color: red; */
+}
 
 /* Company Name - 'Brain'  */
 h1 {
@@ -31,7 +35,6 @@ h1 {
 #web-design {
     color: var(--beaver)
 }
-/* HERE */
 /* Jumbotron */
 .jumbotron {
     height: 600px;  
@@ -86,9 +89,11 @@ h3 {
     padding: 20px;
 }
 .list-group-item {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin-top: 10px;
+    background-image: linear-gradient(to left,var(--eggshell), var(--vivid-tangerine));
+
 }
 .list-group-item:first-child {
     margin-top: -20px;
